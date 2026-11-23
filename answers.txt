@@ -1,0 +1,113 @@
+Git answers
+
+Part 2
+1. mkdir my-first-repo (here oop\ git)
+2. cd oop\ git
+3. - git init
+	- git add . 
+	- git commit -m «first commit»
+	- git branch -M main
+	- git remote add origin git@github.com:b00831779-hub/a-supprimer.git
+	- git push -u origin main
+4. Touch readme.txt
+
+Part 3
+1. git status
+2. git add readme.txt or git add . (Adds all the repository)
+3. commit -m «Add read file»
+4. git log
+
+Part 4 
+1. We used vim <name of file>
+2. It shows what is not synched with the online repository
+3. Git add . , then git commit -m « Part 4) 3) » 
+4. 2 (using git log)
+
+Part 5
+1. It shows the difference between the files
+2. It writes one line = one commit 
+
+Part 6
+1. Git branch
+2. Git branch feature script
+3. Git switch feature-script
+4. Git switch -c dev
+5. Git switch feature-script
+6. Git branch
+
+Part 7:
+1. D
+2. D
+3. D
+4. D
+5. Git add hello-world.sh; git commit -m « add install script »
+6. Git log main..HEAD
+
+Part 8
+1. Git switch main
+2. Ls -a : no because we are in main and hello-world.sh is on feature-script
+3. Git merge feature-script (for that we need to currently be in main)
+4. Ls -a : now hello-world.sh is also in main
+5. Nothing has changes
+
+Part 9
+3. git remote add origin https://github.com/b00831779-hub/my-first-repo.git
+4. git push -u origin main
+5. We can see the different files (README and hello-world) main branch 
+Git answers
+
+Part 2
+1. mkdir my-first-repo (here oop\ git)
+2. cd oop\ git
+3. - git init
+	- git add . 
+	- git commit -m «first commit»
+	- git branch -M main
+	- git remote add origin git@github.com:b00831779-hub/a-supprimer.git
+	- git push -u origin main
+4. Touch readme.txt
+
+Part 3
+1. git status
+2. git add readme.txt or git add . (Adds all the repository)
+3. commit -m «Add read file»
+4. git log
+
+Part 4 
+1. We used vim <name of file>
+2. It shows what is not synched with the online repository
+3. Git add . , then git commit -m « Part 4) 3) » 
+4. 2 (using git log)
+
+Part 5
+1. It shows the difference between the files
+2. It writes one line = one commit 
+
+Part 6
+1. Git branch
+2. Git branch feature script
+3. Git switch feature-script
+4. Git switch -c dev
+5. Git switch feature-script
+6. Git branch
+
+Part 7:
+1. D
+2. D
+3. D
+4. D
+5. Git add hello-world.sh; git commit -m « add install script »
+6. Git log main..HEAD
+
+Part 8
+1. Git switch main
+2. Ls -a : no because we are in main and hello-world.sh is on feature-script
+3. Git merge feature-script (for that we need to currently be in main)
+4. Ls -a : now hello-world.sh is also in main
+5. Nothing has changes
+
+Part 9
+3. git remote add origin https://github.com/b00831779-hub/my-first-repo.git
+4. git push -u origin main
+5. We can see the different files (README and hello-world) main branch 
+
